@@ -1,6 +1,6 @@
 # KLAS Website (demo)
 
-Demo website for KLAS, a Tier-2 automotive injection moulding company in Pondicherry.
+Demo website for KLAS, injection moulded automotive components, Puducherry.
 
 Plain HTML, CSS and JavaScript. No build step.
 
@@ -9,21 +9,21 @@ Plain HTML, CSS and JavaScript. No build step.
 - `index.html` – the page
 - `styles.css` – design and layout (light and dark mode)
 - `script.js` – demo enquiry form behaviour
+- `get-images.sh` – downloads the logo, photos, certificates and awards from the Wix draft into `images/`
 - `render.yaml` – Render static site settings
 
-## Placeholders
+## Images
 
-Anything in an amber highlight (`<span class="ph">[...]</span>`) still needs real details:
-logo, photos, machine count and tonnage, certifications, addresses, phone, email,
-new unit location, new sectors and job roles.
+Run `bash get-images.sh` once from this folder, then commit the `images/` folder.
 
-## Preview locally
+## Still to fill in
 
-Open `index.html` in a browser.
+Anything in an amber highlight (`<span class="ph">[...]</span>`): new unit details,
+plot number, phone and email.
 
 ## Going live
 
-1. Replace all placeholders.
+1. Replace the placeholders.
 2. Remove the `<meta name="robots" content="noindex, nofollow">` line in `index.html`.
-3. Connect the enquiry form to a real inbox (for example Formspree or a small backend).
+3. Connect the enquiry form to a real inbox.
 4. Point the company domain at the Render site.
