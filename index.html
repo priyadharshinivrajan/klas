@@ -4,217 +4,312 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
 <title>KLAS | Injection Moulded Automotive Components, Puducherry</title>
-<meta name="description" content="KLAS manufactures high quality injection moulded components for automotive applications, supplying Hyundai, Kia and leading Tier-1 suppliers from Puducherry.">
+<meta name="description" content="KLAS manufactures injection moulded plastic components for Hyundai, Kia and leading Tier-1 suppliers. IATF 16949 and ISO 9001 certified, Puducherry, since 1998.">
 <!-- Demo site: remove the next line when this goes live so Google can index it -->
 <meta name="robots" content="noindex, nofollow">
+<meta name="theme-color" content="#0E2318">
+<link rel="icon" type="image/png" href="images/logo.png">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Archivo:wght@500;700;800&family=IBM+Plex+Sans:wght@400;500;600&display=swap">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Archivo:wdth,wght@62..125,500..900&family=IBM+Plex+Sans:wght@400;500;600&family=IBM+Plex+Mono:wght@500&display=swap">
 <link rel="stylesheet" href="styles.css">
 </head>
 <body>
 
-<header>
+<header class="site-head">
   <div class="wrap nav">
     <a class="brand" href="#top" aria-label="KLAS home">
-      <span class="wordmark">KLAS</span>
+      <img src="images/logo.png" alt="KLAS" width="80" height="40">
     </a>
-    <nav aria-label="Main">
+    <button class="menu-btn" type="button" aria-expanded="false" aria-controls="menu" aria-label="Open menu">
+      <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" aria-hidden="true"><path d="M4 7h16M4 12h16M4 17h16"/></svg>
+    </button>
+    <nav id="menu" aria-label="Main">
       <ul>
         <li><a href="#about">About</a></li>
-        <li><a href="#clients">Clients</a></li>
         <li><a href="#products">Products</a></li>
         <li><a href="#facility">Facility</a></li>
         <li><a href="#quality">Quality</a></li>
         <li><a href="#careers">Careers</a></li>
-        <li><a class="btn btn-accent" href="#contact">Request a quote</a></li>
+        <li><a class="btn btn-lime" href="#contact">Request a quote</a></li>
       </ul>
     </nav>
   </div>
 </header>
 
 <main>
-<section id="top" class="band hero">
-  <div class="wrap split">
-    <div class="stack">
-      <div class="eyebrow">Injection moulding · Puducherry · Since 1998</div>
-      <h1>Injection moulded components for automotive applications you can count on.</h1>
-      <p class="lede">KLAS supplies high quality plastic components to Hyundai, Kia and leading Tier-1 suppliers across India, delivered on time, every time.</p>
+<!-- HERO -->
+<section id="top" class="hero">
+  <div class="wrap hero-grid">
+    <div class="hero-copy">
+      <div class="eyebrow lime">Injection moulding · Puducherry · Est. 1998</div>
+      <h1>Plastic parts inside the cars India drives.</h1>
+      <p class="lede">KLAS moulds engine and mirror components for Hyundai, Kia and leading Tier-1 suppliers. IATF 16949 certified, with 100% schedule and delivery adherence as our standard.</p>
       <div class="actions">
-        <a class="btn btn-accent" href="#contact">Request a quote</a>
-        <a class="btn btn-ghost" href="#careers">We are hiring</a>
+        <a class="btn btn-lime" href="#contact">Request a quote</a>
+        <a class="btn btn-outline" href="#products">See our parts</a>
       </div>
+      <ul class="badges" aria-label="Certifications">
+        <li>IATF 16949:2016</li>
+        <li>ISO 9001:2015</li>
+        <li>Hyundai SQ certified</li>
+      </ul>
     </div>
-    <figure class="hero-img"><img src="images/hero.jpg" alt="KLAS manufacturing facility" width="1162" height="575"></figure>
-  </div>
-</section>
-
-<div class="wrap">
-  <div class="facts" aria-label="Key facts">
-    <div class="fact"><b>1998</b><span>Year established in Puducherry</span></div>
-    <div class="fact"><b>Tier-2</b><span>Automotive supplier to OEM and Tier-1 programmes</span></div>
-    <div class="fact"><b>6</b><span>Automotive customers, direct and indirect</span></div>
-    <div class="fact"><b>4 states</b><span>Deliveries to Tamil Nadu, Andhra Pradesh, Kerala and Maharashtra</span></div>
-  </div>
-</div>
-
-<section id="about" class="section">
-  <div class="wrap split" style="align-items:start">
-    <div class="stack" style="gap:12px">
-      <div class="eyebrow">About us</div>
-      <h2>A trusted manufacturer with 25+ years of dependable delivery.</h2>
-    </div>
-    <div class="stack" style="gap:18px">
-      <p>KLAS has a wealth of knowledge and expertise in the manufacturing industry. We use this experience to provide companies with high quality injection moulding components for automotive applications they can truly count on.</p>
-      <p>We are committed to meeting our customers’ needs and expectations by supplying products on time, and we stay ahead of the industry curve by using the latest technologies.</p>
-    </div>
-  </div>
-  <div class="wrap">
-    <figure class="figure wide"><img src="images/milestones.png" alt="KLAS milestones timeline" loading="lazy"><figcaption>Our milestones</figcaption></figure>
-  </div>
-</section>
-
-<section class="section white">
-  <div class="wrap split">
-    <figure class="figure"><img src="images/vision.jpg" alt="KLAS vision" loading="lazy"></figure>
-    <div class="stack" style="gap:16px">
-      <div class="eyebrow">Vision and mission</div>
-      <h2>Competitive, innovative and reliable.</h2>
-      <p>To be competitive, innovative and reliable in our operations, working as a team in true partnership with our customers and suppliers, for continuous growth of the business, meeting the highest standards in everything we do to the delight of our customers.</p>
+    <div class="hero-visual" aria-hidden="true">
+      <figure class="hv hv-main"><img src="images/machine-2.webp" alt="" width="561" height="252"><figcaption>Milacron Quantum 230</figcaption></figure>
+      <figure class="hv hv-a"><img src="images/high-volume-1.webp" alt="" loading="eager"></figure>
+      <figure class="hv hv-b"><img src="images/inspection-1.webp" alt=""></figure>
+      <div class="hv-stat"><b>25+</b><span>years of moulding</span></div>
     </div>
   </div>
 </section>
 
-<section id="clients" class="section">
-  <div class="wrap">
-    <div class="intro">
-      <div class="eyebrow">Clients</div>
-      <h2>Trusted by OEMs and Tier-1 suppliers across India.</h2>
-    </div>
-    <ul class="logos">
-      <li><div class="logo-box"><img src="images/client-hyundai.png" alt="Hyundai logo" loading="lazy"></div><b>Hyundai</b><span>Across India</span></li>
-      <li><div class="logo-box"><img src="images/client-kia.png" alt="Kia logo" loading="lazy"></div><b>Kia</b><span>Across India</span></li>
-      <li><div class="logo-box"><img src="images/client-smr.png" alt="SMR logo" loading="lazy"></div><b>SMR Automotive Systems India Ltd</b><span>Chennai and Pune</span></li>
-      <li><div class="logo-box"><img src="images/client-kiml.png" alt="Kyungshin Industrial Motherson logo" loading="lazy"></div><b>Kyungshin Industrial Motherson Ltd</b><span>Padappai, Oragadam (Chennai) and Beerapalli (AP)</span></li>
-      <li><div class="logo-box"><img src="images/client-aptiv.png" alt="Aptiv logo" loading="lazy"></div><b>Aptiv <small>(indirect)</small></b><span>Cochin and Chennai</span></li>
-      <li><div class="logo-box"><img src="images/client-mae.png" alt="Motherson Automotive Elastomers logo" loading="lazy"></div><b>Motherson Automotive Elastomers Technology</b><span>Chennai</span></li>
+<!-- CLIENT MARQUEE -->
+<section class="clients" aria-labelledby="clients-h">
+  <div class="wrap clients-head">
+    <h2 id="clients-h" class="mini">Supplying OEMs and Tier-1 leaders</h2>
+  </div>
+  <div class="marquee">
+    <ul class="marquee-track">
+      <li><img src="images/client-hyundai.png" alt="Hyundai"></li>
+      <li><img src="images/client-kia.png" alt="Kia"></li>
+      <li><img src="images/client-smr.png" alt="SMR Automotive"></li>
+      <li><img src="images/client-kiml.png" alt="Kyungshin Industrial Motherson"></li>
+      <li><img src="images/client-aptiv.png" alt="Aptiv"></li>
+      <li><img src="images/client-mae.png" alt="Motherson Automotive Elastomers"></li>
+      <li aria-hidden="true"><img src="images/client-hyundai.png" alt=""></li>
+      <li aria-hidden="true"><img src="images/client-kia.png" alt=""></li>
+      <li aria-hidden="true"><img src="images/client-smr.png" alt=""></li>
+      <li aria-hidden="true"><img src="images/client-kiml.png" alt=""></li>
+      <li aria-hidden="true"><img src="images/client-aptiv.png" alt=""></li>
+      <li aria-hidden="true"><img src="images/client-mae.png" alt=""></li>
     </ul>
   </div>
 </section>
 
-<section id="products" class="section white">
+<!-- NUMBERS -->
+<section class="numbers">
+  <div class="wrap num-grid">
+    <div class="num"><b data-count="1998">1998</b><span>Founded in Puducherry</span></div>
+    <div class="num"><b><span data-count="100">100</span>%</b><span>Schedule and delivery adherence target</span></div>
+    <div class="num"><b data-count="6">6</b><span>Automotive customers, direct and indirect</span></div>
+    <div class="num"><b data-count="4">4</b><span>States served: TN, AP, Kerala, Maharashtra</span></div>
+  </div>
+</section>
+
+<!-- ABOUT + TIMELINE -->
+<section id="about" class="section">
   <div class="wrap">
-    <div class="intro">
-      <div class="eyebrow">Products</div>
-      <h2>Core automotive products.</h2>
+    <div class="split">
+      <div>
+        <div class="eyebrow">About KLAS</div>
+        <h2>From commodity moulding to the automotive supply chain.</h2>
+      </div>
+      <div class="prose">
+        <p>KLAS has a wealth of knowledge and expertise in manufacturing. We use it to give our customers injection moulded automotive components they can truly count on, supplied on time.</p>
+        <p>We stay ahead of the industry curve with modern machines, laser marking and in-house testing, so our customers can rely on us for whatever they need next.</p>
+      </div>
     </div>
+
+    <ol class="timeline" aria-label="Milestones">
+      <li><span class="yr">1998</span><p>Incorporated in the commodity sector</p></li>
+      <li><span class="yr">2001</span><p>KLAS Polymers established</p></li>
+      <li><span class="yr">2002</span><p>Entered the automobile sector</p></li>
+      <li><span class="yr">2015</span><p>Orders from SMR and Kyungshin Industrial Motherson</p></li>
+      <li><span class="yr">2019–21</span><p>Import-substitute products with laser marking for KIML and Aptiv; orders from MAE</p></li>
+      <li class="next"><span class="yr">Next</span><p>New unit and expansion into new sectors</p></li>
+    </ol>
+  </div>
+</section>
+
+<!-- PRODUCTS -->
+<section id="products" class="section dark">
+  <div class="wrap">
+    <div class="sec-head">
+      <div>
+        <div class="eyebrow lime">Products</div>
+        <h2>Parts in vehicles you see every day.</h2>
+      </div>
+      <p>Precision engine and mirror components, moulded to OEM drawings and delivered to Tier-1 assembly lines.</p>
+    </div>
+
+    <div class="tabs" role="tablist" aria-label="Vehicle programmes">
+      <button role="tab" id="t-creta" aria-selected="true" aria-controls="p-creta">Hyundai Creta</button>
+      <button role="tab" id="t-i20" aria-selected="false" aria-controls="p-i20" tabindex="-1">Hyundai i20</button>
+      <button role="tab" id="t-seltos" aria-selected="false" aria-controls="p-seltos" tabindex="-1">Kia Seltos</button>
+    </div>
+
+    <div class="tabpanel" role="tabpanel" id="p-creta" aria-labelledby="t-creta">
+      <figure class="car"><img src="images/core-1.webp" alt="Hyundai Creta with KLAS engine parts" loading="lazy"></figure>
+      <div class="parts">
+        <h3>Engine parts</h3>
+        <ul><li>SU2i protector body</li><li>SU2i protector cover</li><li>SU2i side member body</li></ul>
+      </div>
+    </div>
+    <div class="tabpanel" role="tabpanel" id="p-i20" aria-labelledby="t-i20" hidden>
+      <figure class="car"><img src="images/core-2.webp" alt="Hyundai i20 with KLAS mirror parts" loading="lazy"></figure>
+      <div class="parts">
+        <h3>Outside rear view mirror</h3>
+        <p class="for">For SMR Automotive Systems India</p>
+        <ul><li>BI3 glass holder</li><li>BI3 side garnish</li><li>BI3 upper cover</li><li>BI3 control case</li></ul>
+      </div>
+    </div>
+    <div class="tabpanel" role="tabpanel" id="p-seltos" aria-labelledby="t-seltos" hidden>
+      <figure class="car"><img src="images/core-3.webp" alt="Kia Seltos with KLAS engine parts" loading="lazy"></figure>
+      <div class="parts">
+        <h3>Engine parts</h3>
+        <ul><li>SP2i gamma body</li><li>SP2i gamma cover</li><li>SP2i PM sensor</li><li>SP2i protector side member body</li></ul>
+      </div>
+    </div>
+
+    <h3 class="sub lime-text">High volume components</h3>
     <div class="gallery g3">
-      <figure class="figure"><img src="images/core-1.png" alt="Core automotive products, set 1" loading="lazy"></figure>
-      <figure class="figure"><img src="images/core-2.png" alt="Core automotive products, set 2" loading="lazy"></figure>
-      <figure class="figure"><img src="images/core-3.png" alt="Core automotive products, set 3" loading="lazy"></figure>
-    </div>
-    <div class="intro" style="margin-top:64px">
-      <h2>High volume manufacturing components.</h2>
-    </div>
-    <figure class="figure wide"><img src="images/high-volume.png" alt="High volume manufacturing components" loading="lazy"></figure>
-    <div class="gallery g2" style="margin-top:20px">
-      <figure class="figure"><img src="images/high-volume-1.png" alt="High volume components, set 1" loading="lazy"></figure>
-      <figure class="figure"><img src="images/high-volume-2.png" alt="High volume components, set 2" loading="lazy"></figure>
+      <button class="zoom" type="button" data-full="images/high-volume.webp"><img src="images/high-volume.webp" alt="High volume moulded components" loading="lazy"></button>
+      <button class="zoom" type="button" data-full="images/high-volume-1.webp"><img src="images/high-volume-1.webp" alt="Mirror housing and cover components" loading="lazy"></button>
+      <button class="zoom" type="button" data-full="images/high-volume-2.webp"><img src="images/high-volume-2.webp" alt="Assorted moulded automotive components" loading="lazy"></button>
     </div>
   </div>
 </section>
 
+<!-- FACILITY -->
 <section id="facility" class="section">
   <div class="wrap">
-    <div class="intro">
-      <div class="eyebrow">Facility</div>
-      <h2>Injection moulding machines and ancillary equipment.</h2>
-      <p>Our shop floor runs Milacron Quantum 230 injection moulding machines, supported by ancillary machines and in-house inspection and testing equipment.</p>
+    <div class="sec-head">
+      <div>
+        <div class="eyebrow">Facility</div>
+        <h2>Equipped for precision, from resin to finished part.</h2>
+      </div>
+      <p>Servo injection moulding, material preparation, laser marking and a full inspection lab under one roof.</p>
     </div>
-    <div class="gallery g3">
-      <figure class="figure"><img src="images/machine-1.jpg" alt="Milacron Quantum 230 injection moulding machine" loading="lazy"><figcaption>Milacron Quantum 230</figcaption></figure>
-      <figure class="figure"><img src="images/machine-2.jpg" alt="Injection moulding machine on the shop floor" loading="lazy"></figure>
-      <figure class="figure"><img src="images/machine-3.png" alt="Injection moulding machines" loading="lazy"></figure>
-    </div>
-    <div class="gallery g2" style="margin-top:20px">
-      <figure class="figure"><img src="images/ancillary.png" alt="Ancillary machines" loading="lazy"><figcaption>Ancillary machines</figcaption></figure>
-      <figure class="figure"><img src="images/test-equipment.png" alt="Inspection and testing equipment" loading="lazy"><figcaption>Inspection and testing equipment</figcaption></figure>
+
+    <div class="fac-grid">
+      <article class="fac fac-wide">
+        <button class="zoom" type="button" data-full="images/machine-1.webp"><img src="images/machine-1.webp" alt="Ferromatik Milacron Nova Servo 150 injection moulding machine" loading="lazy"></button>
+        <div class="fac-body">
+          <h3>Injection moulding</h3>
+          <ul class="chips"><li>Milacron Quantum 230</li><li>Ferromatik Milacron Nova Servo 150</li></ul>
+        </div>
+      </article>
+      <article class="fac">
+        <button class="zoom" type="button" data-full="images/machine-3.webp"><img src="images/machine-3.webp" alt="Laser marking machine with before and after components" loading="lazy"></button>
+        <div class="fac-body">
+          <h3>Laser marking</h3>
+          <p>Permanent part identification for traceability, as required on import-substitute programmes.</p>
+        </div>
+      </article>
+      <article class="fac">
+        <button class="zoom" type="button" data-full="images/ancillary.webp"><img src="images/ancillary.webp" alt="Ancillary machines" loading="lazy"></button>
+        <div class="fac-body">
+          <h3>Material and mould control</h3>
+          <ul class="chips"><li>Wittmann hopper and auto loader</li><li>Preheating oven</li><li>Dehumidifier</li><li>Hot runner controller</li><li>Mould temperature controller</li></ul>
+        </div>
+      </article>
+      <article class="fac fac-wide">
+        <button class="zoom" type="button" data-full="images/test-equipment.webp"><img src="images/test-equipment.webp" alt="Inspection and testing equipment" loading="lazy"></button>
+        <div class="fac-body">
+          <h3>Inspection and testing lab</h3>
+          <ul class="chips"><li>Vision measuring system</li><li>Digital microscope</li><li>MFI tester</li><li>Push pull gauge</li><li>Moisture analyser</li></ul>
+        </div>
+      </article>
     </div>
   </div>
 </section>
 
-<section id="quality" class="section white">
+<!-- QUALITY -->
+<section id="quality" class="section tint">
   <div class="wrap">
-    <div class="intro">
-      <div class="eyebrow">Quality</div>
-      <h2>Final inspection on every batch.</h2>
-      <p>We prioritise quality, value and commitment. Our team makes sure our products meet the relevant standards and specifications, and are delivered on the agreed time.</p>
-    </div>
-    <div class="gallery g4">
-      <figure class="figure square"><img src="images/inspection-1.png" alt="Final inspection" loading="lazy"></figure>
-      <figure class="figure square"><img src="images/inspection-2.png" alt="Final inspection" loading="lazy"></figure>
-      <figure class="figure square"><img src="images/inspection-3.png" alt="Final inspection" loading="lazy"></figure>
-      <figure class="figure square"><img src="images/inspection-4.png" alt="Final inspection" loading="lazy"></figure>
-    </div>
-    <figure class="figure wide" style="margin-top:20px"><img src="images/enhancement.png" alt="Quality and process enhancements" loading="lazy"></figure>
-
-    <div class="intro" style="margin-top:72px">
-      <h3 class="sub">Certifications</h3>
-    </div>
-    <div class="gallery g5">
-      <figure class="figure cert"><img src="images/cert-1.jpg" alt="KLAS certificate 1" loading="lazy"></figure>
-      <figure class="figure cert"><img src="images/cert-2.jpg" alt="KLAS certificate 2" loading="lazy"></figure>
-      <figure class="figure cert"><img src="images/cert-3.jpg" alt="KLAS certificate 3" loading="lazy"></figure>
-      <figure class="figure cert"><img src="images/cert-4.jpg" alt="KLAS certificate 4" loading="lazy"></figure>
-      <figure class="figure cert"><img src="images/cert-5.jpg" alt="KLAS certificate 5" loading="lazy"></figure>
+    <div class="sec-head">
+      <div>
+        <div class="eyebrow">Quality</div>
+        <h2>Every part checked before it leaves our floor.</h2>
+      </div>
+      <p>We prioritise quality, value and commitment. Our team makes sure every product meets the relevant standards and specifications, and reaches you on the agreed date.</p>
     </div>
 
-    <div class="intro" style="margin-top:72px">
-      <h3 class="sub">Awards</h3>
+    <ul class="values">
+      <li><b>Commit to deliver</b><span>100% schedule and delivery adherence to every customer.</span></li>
+      <li><b>Team work</b><span>A young, energetic team that plans every new project together.</span></li>
+      <li><b>Higher quality</b><span>The highest level of service and quality goods, every time.</span></li>
+      <li><b>Higher promise</b><span>Consistent work, steadily moving towards your business goals.</span></li>
+    </ul>
+
+    <div class="gallery g4 inspect">
+      <img src="images/inspection-1.webp" alt="Final inspection of moulded parts" loading="lazy">
+      <img src="images/inspection-2.webp" alt="Inspection station" loading="lazy">
+      <img src="images/inspection-3.webp" alt="Operator inspecting components" loading="lazy">
+      <img src="images/inspection-4.webp" alt="Visual inspection of parts" loading="lazy">
     </div>
-    <div class="gallery g2 awards">
-      <figure class="figure cert"><img src="images/award-1.png" alt="Award from Schefenacker Motherson Ltd" loading="lazy"><figcaption>From M/s Schefenacker Motherson Ltd</figcaption></figure>
-      <figure class="figure cert"><img src="images/award-2.png" alt="Award from Bright Brothers Ltd" loading="lazy"><figcaption>From M/s Bright Brothers Ltd</figcaption></figure>
+
+    <article class="case">
+      <button class="zoom" type="button" data-full="images/enhancement.webp"><img src="images/enhancement.webp" alt="Compressed air cooling added to the AH2 bottom cover mould" loading="lazy"></button>
+      <div>
+        <div class="eyebrow">Continuous improvement</div>
+        <h3>AH2 bottom cover: faster cooling, no part catching</h3>
+        <p>We added compressed air to the mould to cool the part better and stop it catching on ejection, improving cycle consistency and first-pass quality.</p>
+      </div>
+    </article>
+
+    <h3 class="sub">Certifications</h3>
+    <div class="certs">
+      <button class="cert" type="button" data-full="images/cert-1.webp"><img src="images/cert-1.webp" alt="IATF 16949:2016 certificate" loading="lazy"><b>IATF 16949:2016</b><span>Quality Austria</span></button>
+      <button class="cert" type="button" data-full="images/cert-2.webp"><img src="images/cert-2.webp" alt="ISO 9001:2015 certificate from Quality Austria" loading="lazy"><b>ISO 9001:2015</b><span>Quality Austria</span></button>
+      <button class="cert" type="button" data-full="images/cert-3.webp"><img src="images/cert-3.webp" alt="IQNet ISO 9001:2015 certificate" loading="lazy"><b>ISO 9001:2015</b><span>IQNet</span></button>
+      <button class="cert" type="button" data-full="images/cert-4.webp"><img src="images/cert-4.webp" alt="SQ Mark certificate for injection moulding" loading="lazy"><b>SQ Mark</b><span>Hyundai Motor India, 2010</span></button>
+      <button class="cert" type="button" data-full="images/cert-5.webp"><img src="images/cert-5.webp" alt="Hyundai certificate of supplier quality" loading="lazy"><b>Supplier Quality (SQ)</b><span>Hyundai Motor India, 2016</span></button>
+    </div>
+
+    <h3 class="sub">Awards</h3>
+    <div class="awards">
+      <div class="award"><img src="images/award-1.webp" alt="Best Vendor of the Year trophy" loading="lazy"><div><b>Best Vendor of the Year</b><span>Schefenacker Motherson Ltd</span></div></div>
+      <div class="award"><img src="images/award-2.webp" alt="Supplier award trophies" loading="lazy"><div><b>Supplier recognition</b><span>Bright Brothers Ltd</span></div></div>
     </div>
   </div>
 </section>
 
-<section id="growth" class="section band">
-  <div class="wrap split">
-    <div class="photo">[Photo: new unit building or installation]</div>
-    <div class="stack" style="gap:18px">
+<!-- VISION -->
+<section class="vision">
+  <div class="wrap">
+    <div class="eyebrow lime">Vision and mission</div>
+    <blockquote>To be competitive, innovative and reliable in our operations, working as a team in true partnership with our customers and suppliers, for continuous growth to the delight of our customers.</blockquote>
+  </div>
+</section>
+
+<!-- NEW UNIT -->
+<section id="growth" class="section">
+  <div class="wrap split center">
+    <div class="photo-ph">[Photo: new unit building or installation]</div>
+    <div>
       <div class="eyebrow">Growing with our customers</div>
       <h2>Our new unit is now <span class="ph">[operational / coming online in month year]</span>.</h2>
-      <p>The new facility in <span class="ph">[location]</span> adds <span class="ph">[capacity / number of machines]</span>, giving our customers more capacity, shorter lead times and room to take on new programmes.</p>
-      <div><a class="btn btn-accent" href="#contact">Discuss a new programme</a></div>
+      <p class="prose-p">The new facility in <span class="ph">[location]</span> adds <span class="ph">[capacity / number of machines]</span>, giving our customers more capacity, shorter lead times and room to take on new programmes.</p>
+      <a class="btn btn-dark" href="#contact">Discuss a new programme</a>
     </div>
   </div>
 </section>
 
-<section id="careers" class="section">
+<!-- CAREERS -->
+<section id="careers" class="section tint">
   <div class="wrap">
-    <div class="head-row">
-      <div class="stack" style="gap:12px;max-width:640px">
+    <div class="sec-head">
+      <div>
         <div class="eyebrow">Careers</div>
         <h2>Build your career on the shop floor.</h2>
-        <p>We are growing and hiring across production and quality. Training provided for freshers.</p>
       </div>
-      <a class="btn btn-line" href="https://www.linkedin.com/company/klaspondicherry/">Follow us on LinkedIn</a>
+      <p>We are growing and hiring across production and quality. Training provided for freshers. <a href="https://www.linkedin.com/company/klaspondicherry/">Follow us on LinkedIn</a> for new openings.</p>
     </div>
     <div class="jobs">
-      <div class="job"><h3>Machine Operator</h3><div class="meta">Production · Puducherry · Full time</div><a href="#contact">Apply now →</a></div>
-      <div class="job"><h3>Quality Inspector</h3><div class="meta">Quality · Puducherry · Full time</div><a href="#contact">Apply now →</a></div>
-      <div class="job"><h3>Production Supervisor</h3><div class="meta">Production · New unit · Full time</div><a href="#contact">Apply now →</a></div>
+      <div class="job"><span class="dept">Production</span><h3>Machine Operator</h3><p>Puducherry · Full time</p><a href="#contact">Apply now →</a></div>
+      <div class="job"><span class="dept">Quality</span><h3>Quality Inspector</h3><p>Puducherry · Full time</p><a href="#contact">Apply now →</a></div>
+      <div class="job"><span class="dept">Production</span><h3>Production Supervisor</h3><p>New unit · Full time</p><a href="#contact">Apply now →</a></div>
     </div>
   </div>
 </section>
 
-<section class="section white">
+<!-- LEADERSHIP -->
+<section class="section">
   <div class="wrap">
-    <div class="intro">
-      <div class="eyebrow">Leadership</div>
-      <h2>The team behind KLAS.</h2>
-    </div>
+    <div class="eyebrow">Leadership</div>
+    <h2 style="margin-bottom:32px">The team behind KLAS.</h2>
     <div class="team">
       <div class="person"><div class="avatar" aria-hidden="true">LS</div><div><b>Lakshmi Srikanth</b><span>Chief Executive Officer</span></div></div>
       <div class="person"><div class="avatar" aria-hidden="true">AS</div><div><b>A. Srikanth</b><span>Managing Director</span></div></div>
@@ -222,40 +317,47 @@
   </div>
 </section>
 
-<section id="contact" class="section">
-  <div class="wrap split" style="align-items:start">
-    <div class="stack">
-      <div class="eyebrow">Contact</div>
+<!-- CONTACT -->
+<section id="contact" class="section dark">
+  <div class="wrap split">
+    <div>
+      <div class="eyebrow lime">Contact</div>
       <h2>Send us your drawing. We will come back with a quote.</h2>
-      <div class="details">
-        <div><strong>Address:</strong> Plot No. <span class="ph">[no.]</span>, Vazhudavoor Road, Kurumbapet, Marie Oulgaret, Puducherry</div>
-        <div><strong>Phone:</strong> <span class="ph">[+91 XXXXX XXXXX]</span></div>
-        <div><strong>Email:</strong> <span class="ph">[email]</span></div>
-        <div><strong>Hours:</strong> Monday to Saturday, 9:30 am to 6:30 pm · Sunday closed</div>
-      </div>
+      <dl class="details">
+        <div><dt>Address</dt><dd>Plot No. <span class="ph">[no.]</span>, Vazhudavoor Road, Kurumbapet, Marie Oulgaret, Puducherry</dd></div>
+        <div><dt>Phone</dt><dd><span class="ph">[+91 XXXXX XXXXX]</span></dd></div>
+        <div><dt>Email</dt><dd><span class="ph">[email]</span></dd></div>
+        <div><dt>Hours</dt><dd>Monday to Saturday, 9:30 am to 6:30 pm · Sunday closed</dd></div>
+      </dl>
     </div>
     <form id="enquiry" novalidate>
       <label for="f-name">Name<input id="f-name" name="name" type="text" autocomplete="name" required></label>
       <label for="f-company">Company<input id="f-company" name="company" type="text" autocomplete="organization"></label>
       <label for="f-contact">Email or phone<input id="f-contact" name="contact" type="text" required></label>
       <label for="f-msg">Part details or enquiry<textarea id="f-msg" name="msg" rows="4"></textarea></label>
-      <button class="btn" type="submit">Send enquiry</button>
-      <div id="sent" class="sent" hidden>Thanks. This is a demo form, so nothing was sent. On the live site, enquiries would go to the sales inbox.</div>
+      <button class="btn btn-lime" type="submit">Send enquiry</button>
+      <p id="sent" class="sent" hidden>Thanks. This is a demo form, so nothing was sent. On the live site, enquiries will go to the sales inbox.</p>
     </form>
   </div>
 </section>
 </main>
 
-<footer>
-  <div class="wrap">
-    <div><b>KLAS</b> · Injection moulded automotive components since 1998</div>
-    <div class="links">
-      <a href="https://www.linkedin.com/company/klaspondicherry/">LinkedIn</a>
-      <a href="#careers">Careers</a>
-      <a href="#contact">Contact</a>
-    </div>
+<footer class="site-foot">
+  <div class="wrap foot">
+    <img src="images/logo.png" alt="KLAS" width="70" height="35">
+    <p>Manufacturer of injection moulded plastic components · Puducherry, since 1998</p>
+    <ul>
+      <li><a href="https://www.linkedin.com/company/klaspondicherry/">LinkedIn</a></li>
+      <li><a href="#careers">Careers</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
   </div>
 </footer>
+
+<dialog id="lightbox" aria-label="Image viewer">
+  <button type="button" class="lb-close" aria-label="Close">×</button>
+  <img src="" alt="">
+</dialog>
 
 <script src="script.js"></script>
 </body>

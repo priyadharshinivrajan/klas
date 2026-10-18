@@ -2,23 +2,19 @@
 
 Demo website for KLAS, injection moulded automotive components, Puducherry.
 
-Plain HTML, CSS and JavaScript. No build step.
+Plain HTML, CSS and JavaScript. No build step. Deployed on Render as a static site.
 
 ## Files
 
 - `index.html` – the page
-- `styles.css` – design and layout (light and dark mode)
-- `script.js` – demo enquiry form behaviour
-- `get-images.sh` – downloads the logo, photos, certificates and awards from the Wix draft into `images/`
+- `styles.css` – design and layout
+- `script.js` – mobile menu, product tabs, image viewer, demo enquiry form
+- `images/` – logo, client logos, product, facility, inspection, certificate and award images
 - `render.yaml` – Render static site settings
-
-## Images
-
-Run `bash get-images.sh` once from this folder, then commit the `images/` folder.
 
 ## Still to fill in
 
-Anything in an amber highlight (`<span class="ph">[...]</span>`): new unit details,
+Anything in a yellow highlight (`<span class="ph">[...]</span>`): new unit details,
 plot number, phone and email.
 
 ## Going live
