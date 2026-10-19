@@ -267,6 +267,7 @@ dialog#lightbox img{max-height:86vh;width:auto;border-radius:10px;background:#ff
 .clients .marquee-track img{max-height:48px;width:auto;max-width:160px;object-fit:contain}
 .clients .mt-oem img{max-height:42px}
 .clients .mt-oem img.roundel{height:46px;max-height:46px}
+.clients .mt-oem img.tall{height:50px;max-height:50px}
 @media (prefers-reduced-motion:no-preference){
   .clients .mt-tier{animation:scroll-half 36s linear infinite}
   .clients .mt-oem{animation:scroll-half 30s linear infinite reverse}
