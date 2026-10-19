@@ -258,16 +258,14 @@ dialog#lightbox img{max-height:86vh;width:auto;border-radius:10px;background:#ff
 @media (prefers-reduced-motion:reduce){*{transition:none!important}html{scroll-behavior:auto}}
 
 /* customer groups */
-.client-groups{display:grid;grid-template-columns:minmax(0,2fr) minmax(0,1fr);gap:24px 56px;align-items:end}
-.cg h2.mini{text-align:left;margin-bottom:18px}
-.cg-oem{border-left:1px solid var(--line);padding-left:48px}
-.logo-row{list-style:none;margin:0;padding:0;display:flex;flex-wrap:wrap;align-items:center;gap:20px 44px}
+.client-groups{display:flex;flex-direction:column;gap:28px}
+.cg h2.mini{text-align:left;margin-bottom:16px}
+.cg-oem{border-top:1px solid var(--line);padding-top:28px}
+.logo-row{list-style:none;margin:0;padding:0;display:flex;flex-wrap:wrap;align-items:center;gap:20px 48px}
 .logo-row li{height:56px;display:flex;align-items:center}
-.logo-row img{max-height:48px;width:auto;max-width:150px;object-fit:contain}
+.logo-row img{max-height:48px;width:auto;max-width:160px;object-fit:contain}
 .cg-oem .logo-row img{max-height:40px;opacity:.85}
 @media (max-width:860px){
-  .client-groups{grid-template-columns:minmax(0,1fr)}
-  .cg-oem{border-left:0;padding-left:0;border-top:1px solid var(--line);padding-top:24px}
   .logo-row{gap:16px 32px}
   .logo-row img{max-height:40px;max-width:120px}
 }
