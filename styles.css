@@ -283,3 +283,11 @@ dialog#lightbox img{max-height:86vh;width:auto;border-radius:10px;background:#ff
   .clients .marquee-track img{max-height:38px;max-width:120px}
   .clients .mt-oem img.roundel{height:38px}
 }
+
+/* static vehicle brands row */
+.oem-row{list-style:none;margin:0;padding:0;display:flex;flex-wrap:wrap;align-items:center;gap:20px 56px}
+.oem-row li{height:60px;display:flex;align-items:center}
+.oem-row img{max-height:40px;width:auto;max-width:150px;object-fit:contain}
+.oem-row img.roundel{height:46px;max-height:46px}
+.oem-row img.tall{height:50px;max-height:50px}
+@media (max-width:620px){.oem-row{gap:14px 26px}.oem-row img{max-height:34px}.oem-row img.roundel,.oem-row img.tall{height:40px}}
