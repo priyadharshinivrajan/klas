@@ -258,15 +258,27 @@ dialog#lightbox img{max-height:86vh;width:auto;border-radius:10px;background:#ff
 @media (prefers-reduced-motion:reduce){*{transition:none!important}html{scroll-behavior:auto}}
 
 /* customer groups */
-.client-groups{display:flex;flex-direction:column;gap:28px}
-.cg h2.mini{text-align:left;margin-bottom:16px}
-.cg-oem{border-top:1px solid var(--line);padding-top:28px}
-.logo-row{list-style:none;margin:0;padding:0;display:flex;flex-wrap:wrap;align-items:center;gap:20px 48px}
-.logo-row li{height:56px;display:flex;align-items:center}
-.logo-row img{max-height:48px;width:auto;max-width:160px;object-fit:contain}
-.cg-oem .logo-row img{max-height:40px;opacity:.85}
-@media (max-width:860px){
-  .logo-row{gap:16px 32px}
-  .logo-row img{max-height:40px;max-width:120px}
+.clients .client-groups{display:block}
+.cg h2.mini{text-align:left;margin-bottom:14px}
+.cg-oem{border-top:1px solid var(--line);padding-top:26px;margin-top:26px}
+.clients .marquee{margin:0 auto;max-width:1240px}
+.clients .marquee-track{gap:0}
+.clients .marquee-track li{height:64px;display:flex;align-items:center;padding-right:64px}
+.clients .marquee-track img{max-height:48px;width:auto;max-width:160px;object-fit:contain}
+.clients .mt-oem img{max-height:42px}
+.clients .mt-oem img.roundel{height:46px;max-height:46px}
+@media (prefers-reduced-motion:no-preference){
+  .clients .mt-tier{animation:scroll-half 36s linear infinite}
+  .clients .mt-oem{animation:scroll-half 30s linear infinite reverse}
+  .clients .marquee:hover .marquee-track{animation-play-state:paused}
 }
-.cg-oem .logo-row img.roundel{height:40px;max-height:40px}
+@media (prefers-reduced-motion:reduce){
+  .clients .marquee-track{width:auto;flex-wrap:wrap;padding:0 20px}
+  .clients .marquee-track li.dup{display:none}
+}
+@keyframes scroll-half{to{transform:translateX(-50%)}}
+@media (max-width:620px){
+  .clients .marquee-track li{padding-right:40px;height:56px}
+  .clients .marquee-track img{max-height:38px;max-width:120px}
+  .clients .mt-oem img.roundel{height:38px}
+}
