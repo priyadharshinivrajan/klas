@@ -271,3 +271,4 @@ dialog#lightbox img{max-height:86vh;width:auto;border-radius:10px;background:#ff
   .logo-row{gap:16px 32px}
   .logo-row img{max-height:40px;max-width:120px}
 }
+.cg-oem .logo-row img.roundel{height:40px;max-height:40px}
